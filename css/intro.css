@@ -1,0 +1,100 @@
+#introWrapper{
+    position: relative;
+}
+
+#introBackground{
+    position: absolute;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    overflow: hidden;
+    filter: brightness(90%);
+}
+
+#mainLogo{
+    position: absolute;
+    width: 14%;
+    top: 9vw;
+    left: 42.7vw;
+}
+
+#introText1{
+    position: absolute;
+    top: 6.5vw;
+    left: 44vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .8em; 
+    font-weight:800; 
+    color: #0f8b71;
+}
+
+#introText2{
+    position: absolute;
+    width: 660px;
+    top: 15vw;
+    left: 32.5vw;  
+
+    font-family: sans-serif;
+    text-align: center;
+    font-weight:700;
+    font-size: 1.4em;
+    font-variant: bold;
+    color: white;
+}
+
+#introText3{
+    position: absolute;
+    top: 19vw;
+    left: 33.5vw;  
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 400;
+    font-style: bold;
+    color: white;
+}
+
+#introText4{
+    position: absolute;
+    top: 25.5vw;
+    left: 43.7vw;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .6em;  
+    color: grey;
+}
+
+#trialButton{
+    position: absolute;
+    float: right;
+    top: 21.5vw;
+    left: 43vw;  
+    height: 60px;
+    width: 255px;
+    text-align: center;
+    background-color: white;
+    border:transparent;
+    border-radius: 5px;
+    color: black;
+    box-shadow: none;
+    font-style: bold;
+    font-weight:600;
+    font-size: 1em;
+}
+
+
+#loginButton{
+    position: absolute;
+    float: right;
+    top: 1vw;
+    left: 92.5vw;
+    padding: 10px;
+    background-color: transparent;
+    border:transparent;
+    color: white;
+    box-shadow: none;
+    font-style: bold;
+    font-size: .9em;
+    font-weight: 700;
+}
